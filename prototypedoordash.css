@@ -1,0 +1,801 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* Sticky position*/
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  z-index: 1;
+}
+
+.logo {
+  margin-block: 17px;
+  margin-left: 7px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* hero section*/
+.parent1 {
+  background-image: url(img/doordash/hero_desktop_1.png);
+  max-width: 100%;
+  height: 900px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.but1 {
+  position: absolute;
+  right: 135px;
+  top: 6px;
+  width: 100px;
+  height: 6.8vh;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 19px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+}
+.but1:hover,
+.but3:hover,
+.but5:hover,
+.but6:hover {
+  background-color: rgb(218, 34, 34);
+}
+.but2 {
+  position: absolute;
+  right: 25px;
+  top: 6px;
+  width: 100px;
+  height: 6.8vh;
+  border-radius: 30px;
+  border: none;
+  color: grey;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.chl1 {
+  position: absolute;
+  width: 60%;
+  height: 40vh;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.fontawesome1 {
+  margin: 20px auto;
+  background-color: white;
+  width: 410px;
+  height: auto;
+  border-radius: 50px;
+  background-color: white;
+}
+.fa-location-dot {
+  color: gray;
+  padding-left: 15px;
+  padding-right: 5px;
+  font-size: 24px;
+}
+.inp1 {
+  width: 290px;
+  height: 8vh;
+  padding-left: 15px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.inp1::placeholder {
+  padding-left: 3px;
+}
+.fa-arrow-right {
+  background-color: red;
+  cursor: pointer;
+  padding: 12px;
+  color: white;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-left: 19px;
+  margin-top: 3.5px;
+}
+
+.cen {
+  cursor: pointer;
+  background-color: white;
+  width: 240px;
+  padding: 6px;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+.fa-user {
+  padding: 0 5px;
+}
+.par1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 800;
+}
+/* svg*/
+.parent2 {
+  height: 95vh;
+  top: 10px;
+  margin-bottom: 30px;
+}
+/* svg*/
+.chl2 {
+  height: 100%;
+  max-width: 90%;
+  margin: auto;
+}
+/* svg*/
+.chl3 {
+  float: left;
+  width: 30%;
+  height: 65vh;
+  margin: 90px 10px;
+}
+.img2 {
+  display: block;
+  margin: auto;
+}
+.h2 {
+  color: black;
+}
+.par2 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 18px;
+}
+.par3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.par3 a {
+  text-decoration: none;
+  color: red;
+}
+.par3 a:visited {
+  color: red;
+}
+.right {
+  background-color: transparent;
+  color: red;
+  font-size: 20px;
+  padding: 0;
+}
+.child3,
+.child4 {
+  max-width: 100%;
+  height: 100vh;
+}
+.h2i {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 45px;
+  text-align: left;
+}
+.h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-block: 10px;
+}
+.but3 {
+  margin-top: 25px;
+  height: 6vh;
+  border-radius: 30px;
+  padding: 8px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.parent4,
+.parent3 {
+  max-width: 100%;
+  height: 100vh;
+}
+.parent5 {
+  position: relative;
+}
+
+.dash {
+  position: absolute;
+  right: 900px;
+  top: 10px;
+  height: 700px;
+  padding: 60px;
+}
+
+.chl4 {
+  position: relative;
+  max-width: 95%;
+  height: 100%;
+  margin: auto;
+}
+
+.chl5 {
+  position: absolute;
+  top: 25%;
+  width: 35%;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.chl5 p,
+.parent5 p {
+  margin-top: 5px;
+  text-align: left;
+}
+.woman {
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  width: 60%;
+  height: 90%;
+  background-image: url(Img/doordash/download_the_app_desktop.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.parent4 {
+  padding-bottom: 50px;
+  background-color: rgba(252, 229, 222, 0.6);
+}
+
+.parent {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  background-image: url(img/doordash/dashpass_desktop_1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 60%;
+  height: 90%;
+}
+.parent5 {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  width: 35%;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* for grocery  */
+.parent6 {
+  max-width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(46, 46, 46, 0.747),
+      rgba(34, 33, 33, 0.5)
+    ),
+    url(https://i.postimg.cc/dVgpLyW2/kek.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.gro {
+  width: 50%;
+  height: auto;
+  position: relative;
+  top: 23%;
+  color: white;
+  left: 50%;
+  transform: translate(-50%);
+}
+.gro h5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 19px;
+}
+.par7 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+  font-weight: 600;
+  margin-top: 15px;
+  text-align: center;
+}
+.but5 {
+  position: absolute;
+  bottom: -90px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 170px;
+  height: 7vh;
+  padding: 7px;
+  border-radius: 30px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.parent7 {
+  height: 90vh;
+}
+.chl10 {
+  max-width: 95%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+.chl11 {
+  width: 35%;
+  position: absolute;
+  padding: 10px;
+  top: 35%;
+}
+.chl11 .par5,
+.parent14 .par5,
+.sub11 .par5 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.andiv {
+  width: 60%;
+  height: 90%;
+  background-image: url(Img/doordash/convenience_desktop.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+}
+.parent8 {
+  max-width: 100%;
+  height: 275vh;
+  background-color: rgba(252, 229, 222, 0.6);
+}
+
+.contain {
+  max-width: 95%;
+  height: auto;
+  margin: auto;
+  background-color: god;
+}
+
+.headee {
+  min-width: 100%;
+  max-width: 100%;
+  height: 100px;
+  position: relative;
+  top: 90px;
+}
+.h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-block: 10px;
+  font-weight: 700;
+}
+
+.contained {
+  position: relative;
+  top: 30px;
+  max-width: 90%;
+  height: 220vh;
+  margin: auto;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  width: 48%;
+  height: 100vh;
+}
+.left1 {
+  position: absolute;
+  left: 0;
+  top: 55%;
+  width: 48%;
+  height: 100vh;
+}
+.parent12 {
+  position: absolute;
+  right: 0;
+  top: 55%;
+  width: 48%;
+  height: 100vh;
+}
+.right0 {
+  position: absolute;
+  right: 0;
+  width: 48%;
+  height: 100vh;
+}
+
+.img6,
+.img7,
+.img8,
+.img9 {
+  width: 100%;
+  height: 75%;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.img6 {
+  width: 100%;
+  height: 75%;
+  background-image: url(img/doordash/package_pickup_desktop_12.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.img7 {
+  width: 100%;
+  height: 75%;
+  background-image: url(Img/doordash/alcohol_desktop_1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.img8 {
+  width: 100%;
+  height: 75%;
+  background-image: url(Img/doordash/flowers_desktop_1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.img9 {
+  width: 100%;
+  height: 75%;
+  background-image: url(img/doordash/pet_supplies_desktop_1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.hz {
+  text-align: center;
+  margin-block: 15px;
+  color: black;
+}
+.par9 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.button {
+  width: 100%;
+  position: relative;
+  top: 15px;
+  background-color: white;
+}
+.but6 {
+  height: 7vh;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  background-color: red;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+p.span {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.parent13 {
+  height: 125vh;
+}
+.unlock {
+  width: 60%;
+  margin: auto;
+  height: auto;
+  padding-block: 50px;
+}
+.unlock h2 {
+  color: black;
+}
+.new {
+  position: relative;
+  max-width: 95%;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+}
+.parent14 {
+  width: 35%;
+  position: absolute;
+  padding: 10px;
+  top: 45%;
+}
+.sub9 {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  background-image: url(https://i.postimg.cc/xjPwtqCQ/efujd.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 60%;
+  height: 80%;
+}
+.parent17 {
+  height: 120vh;
+  padding-bottom: 50px;
+  background-color: rgba(252, 229, 222, 0.6);
+}
+.sub10 {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  background-image: url(https://i.postimg.cc/XqNDTcJb/sda.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 60%;
+  height: 90%;
+}
+.sub11 {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  width: 35%;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.parent19 {
+  color: black;
+  text-align: center;
+  height: 600px;
+}
+h2.read {
+  padding-block: 30px;
+}
+.tab {
+  max-width: 90%;
+  height: 42vh;
+  padding: 7px;
+  margin: auto;
+}
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  height: 8vh;
+  font-size: 22px;
+  padding-top: 15px;
+}
+td {
+  text-align: center;
+  height: 7vh;
+  text-align: left;
+  padding: 6px;
+}
+th a,
+td a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+th a:visited,
+td a:visited {
+  color: black;
+}
+th a:visited,
+td a:hover {
+  text-decoration: underline;
+}
+.th:hover {
+  background-color: rgba(240, 239, 239, 0.954);
+  cursor: pointer;
+}
+.more {
+  width: 180px;
+  margin: 10px auto;
+  cursor: pointer;
+  font-size: 20px;
+}
+.more h2 {
+  text-align: center;
+  display: inline;
+  color: black;
+  padding-left: 10px;
+  font-size: 20px;
+  padding-right: 5px;
+}
+.fa-angle-down {
+  background-color: rgba(203, 199, 199, 0.902);
+  padding: 9px;
+  border-radius: 50%;
+  font-size: 28px;
+}
+footer {
+  height: 138vh;
+  background-color: rgb(27, 25, 25);
+  color: white;
+}
+.foot {
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+.table2 {
+  width: 95%;
+  color: rgb(255, 255, 255);
+}
+.table2 td,
+.table3 td {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+  text-align: left;
+  height: 3vh;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  text-align: left;
+}
+.table2 td a,
+.table3 td a {
+  color: rgb(255, 255, 255);
+}
+.table2 td a:visited,
+.table3 td a:visited {
+  color: rgb(210, 203, 203);
+}
+.table3 {
+  width: 60%;
+  margin-top: 50px;
+}
+.table3 th {
+  text-align: left;
+  font-size: 19px;
+}
+.applestore {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 45%;
+}
+.Android {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 35%;
+}
+.applestore,
+.Android {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.applestore:hover,
+.Android:hover {
+  opacity: 0.9;
+}
+.bott {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  height: 8vh;
+}
+.logoo {
+  margin-top: 7px;
+  margin-right: 6px;
+  width: 40px;
+}
+a.line {
+  color: rgba(240, 239, 239, 0.954);
+  text-decoration: none;
+  margin-inline: 7px;
+  font-size: 15px;
+}
+a.line:hover {
+  text-decoration: underline;
+}
+.uni {
+  margin-left: 20px;
+  display: inline-block;
+  width: 170px;
+  background-color: white;
+  position: absolute;
+  right: 17%;
+  top: 13px;
+  height: auto;
+  border-radius: 25px;
+}
+.fa-globe {
+  padding: 5px;
+  color: black;
+  font-size: 22px;
+}
+select {
+  height: 4vh;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+}
+.uni2 {
+  display: inline-block;
+  width: 100px;
+  background-color: red;
+}
+.fa-facebook {
+  font-size: 30px;
+  position: absolute;
+  top: 13px;
+  right: 80px;
+  color: rgba(240, 239, 239, 0.954);
+}
+.fa-x-twitter {
+  font-size: 30px;
+  position: absolute;
+  top: 13px;
+  right: 40px;
+  color: rgba(240, 239, 239, 0.954);
+}
+.fa-instagram {
+  font-size: 30px;
+  position: absolute;
+  top: 13px;
+  right: 2px;
+  color: rgba(240, 239, 239, 0.954);
+}
